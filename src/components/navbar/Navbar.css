@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 20px 0;
+    overflow: auto;
+    gap: 1rem;
+    /* min-width: 800px; */
+}
+
+.nav_flex {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_flex p {
+    color: #A7B0BD;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.nav_flex span {
+    color: #151515;
+    margin-left: 1rem;
+}

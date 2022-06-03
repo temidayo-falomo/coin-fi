@@ -1,0 +1,28 @@
+.CardBoxSubHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eef3f5;
+    padding: 20px 0;
+    color: #A7B0BD;
+    overflow: auto;
+    margin: 0 auto;
+    width: 80%;
+    /* min-width: 900px; */
+    overflow: auto;
+}
+
+.sub-h {
+    display: flex;
+    gap: 3rem;
+}
+
+.sub-h span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-align: center;
+}
+
+.sub-mid {
+    gap: 2.5rem;
+}

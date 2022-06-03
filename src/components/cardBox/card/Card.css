@@ -1,0 +1,68 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px #F4F6FA solid;
+    overflow: auto;
+    gap: 1rem;
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card-left img {
+    width: 40px;
+}
+
+.card-left div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.card-mid span:nth-of-type(1) {
+    color: #A7B0BD;
+}
+
+.card-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card-right span:nth-of-type(1) {
+    color: #A7B0BD;
+}
+
+.card-right span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card-right span h4 {
+    text-transform: uppercase;
+}
+
+.star {
+    color: black;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.star.active {
+    color: #DC5FE0;
+    fill: #DC5FE0;
+}
+
+

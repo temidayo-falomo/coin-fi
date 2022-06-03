@@ -1,0 +1,37 @@
+.Bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin: 2rem auto;
+    overflow: auto;
+}
+
+.bar-left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.bar-left input {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 300px;
+    text-transform: capitalize;
+}
+
+.bar-left div:nth-of-type(2) {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo {
+    min-width: 150px;
+    max-width: 150px;
+}

@@ -1,0 +1,24 @@
+.MainContainer {
+    margin-bottom: 4rem;
+}
+
+.load-more {
+    /* border: 2px red solid; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #6a87b3;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.load-more:hover {
+    background-color: rgb(94, 149, 194);
+    color: #fff;
+}
