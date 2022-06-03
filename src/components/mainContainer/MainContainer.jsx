@@ -18,7 +18,6 @@ function MainContainer(props) {
   const [currencyValue, setCurrencyValue] = useState("usd");
   const [currencySymbol, setCurrencySymbol] = useState("$");
   const [visible, setVisible] = useState(20);
-  const [loading, setLoading] = useState(false);
 
   //Calling Gecko Currencies Api/GraphDataApi Axios
   useEffect(() => {
@@ -37,7 +36,6 @@ function MainContainer(props) {
         "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=max&type=json"
       )
       .then((res) => {
-        // console.log(res.data);
         setGraphData(res.data);
       });
   }, [currencyValue]);
