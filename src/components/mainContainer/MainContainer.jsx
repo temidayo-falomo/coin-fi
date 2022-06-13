@@ -3,7 +3,6 @@ import "./MainContainer.css";
 import "../bar/Bar.css";
 import CardBox from "../cardBox/CardBox";
 import { useState } from "react";
-
 import { useEffect } from "react";
 import axios from "axios";
 import { currenciesData } from "../data/currenciesData";
@@ -70,18 +69,14 @@ function MainContainer(props) {
       <form className="Bar TopBar">
         <div className="bar-left">
           <div className="logo">
-            <img src="./images/logo.svg" alt="" className="logo"/>
+            <img src="./images/newLogo.svg" alt="" className="logo"/>
           </div>
           <input
             type="search"
             className="search"
-            placeholder="Search"
+            placeholder="Search Coins..."
             onChange={handleSearchChange}
           />
-          <div>
-            <a href="/">Converter</a>
-            <a href="/">Exchanges</a>
-          </div>
         </div>
 
         <div className="bar-right">

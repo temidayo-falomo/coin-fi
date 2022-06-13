@@ -32,6 +32,24 @@
 }
 
 .logo {
-    min-width: 150px;
-    max-width: 150px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.bar-right select {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+@media(max-width: 600px) {
+    .Bar {
+        flex-direction: column;
+    }
+    .bar-left {
+        flex-direction: column;
+    }
+
+    .bar-right {
+        margin-top: .5rem;
+    }
 }

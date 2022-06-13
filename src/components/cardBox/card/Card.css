@@ -7,6 +7,10 @@
     gap: 1rem;
 }
 
+.card:hover {
+    border: 2.5px #F4F6FA solid;
+}
+
 .card-left {
     display: flex;
     align-items: center;

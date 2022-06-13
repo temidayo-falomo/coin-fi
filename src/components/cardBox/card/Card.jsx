@@ -2,8 +2,8 @@ import React from "react";
 import "./Card.css";
 import { AiOutlineRise, AiOutlineFall } from "react-icons/ai";
 import { FiStar } from "react-icons/fi";
+import { AiFillWarning } from "react-icons/ai";
 import { useState } from "react";
-import LineChart from "../../chartJs/LineChart";
 
 //Gets Props from Cards.jsx
 
@@ -24,10 +24,6 @@ function Card(props) {
   const linkPath = `https://www.coingecko.com/en/coins/${props.name
     .toLowerCase()
     .replace(/\s/g, "-")}`;
-
-  // Object.entries(props.graphData).slice(0, 10).map(([key, value])=> {
-  //   console.log(value.map((index)=> index));
-  // })
 
   return (
     <div className="card">
@@ -82,7 +78,14 @@ function Card(props) {
         </span>
         <div className="graph" style={{ width: "150px", height: "80px" }}>
           {/* Cant Figure Charts Just Yet */}
-          <LineChart testGraphData={testGraphData} style={{ width: "100%" }} />
+          {percentage < 0 ? (
+            <img src="./images/downLine.svg" alt="" />
+          ) : (
+            <img src="./images/upLine.svg" alt="" />
+          )}
+          <span>
+            <AiFillWarning style={{color: '#D9D908', fontSize: '1.5rem'}}/> Pictorial represenation !
+          </span>
         </div>
       </div>
     </div>

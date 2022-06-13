@@ -7,7 +7,7 @@ nav {
     padding: 20px 0;
     overflow: auto;
     gap: 1rem;
-    /* min-width: 800px; */
+    font-size: .9rem;
 }
 
 .nav_flex {
@@ -27,4 +27,10 @@ nav {
 .nav_flex span {
     color: #151515;
     margin-left: 1rem;
+}
+
+@media(max-width: 600px) {
+    nav {
+        display: none;
+    }
 }

@@ -6,23 +6,18 @@
     color: #A7B0BD;
     overflow: auto;
     margin: 0 auto;
-    width: 80%;
-    /* min-width: 900px; */
-    overflow: auto;
+    width: 95%;
 }
 
 .sub-h {
     display: flex;
-    gap: 3rem;
+    align-items: center;
 }
 
 .sub-h span {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: .5rem;
-    text-align: center;
-}
-
-.sub-mid {
-    gap: 2.5rem;
+    width: 8.5rem;
 }

@@ -4,7 +4,7 @@ import './CardBoxHeader.css'
 function CardBoardHeader() {
   return (
     <header className='header'>
-        <h3>Top 100 Currencies</h3>
+        <h3>Top 200 Currencies</h3>
         <ul>
             <li>All</li>
             <li>Coins</li>

@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
     background-color: #fff;
@@ -9,7 +10,21 @@
     overflow: auto;
 }
 
+.header h3 {
+    margin-right: 1.5rem;
+}
+
 .header ul {
     display: flex;
     gap: 1.5rem;
+}
+
+@media(max-width: 600px) {
+    .header h3 {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
 }
