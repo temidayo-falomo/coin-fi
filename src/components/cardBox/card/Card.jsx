@@ -84,7 +84,7 @@ function Card(props) {
             <img src="./images/upLine.svg" alt="" />
           )}
           <span>
-            <AiFillWarning style={{color: '#D9D908', fontSize: '1.5rem'}}/> Pictorial represenation !
+            <AiFillWarning style={{color: '#D9D908', fontSize: '1.5rem'}}/> Pictorial Represenation!
           </span>
         </div>
       </div>
