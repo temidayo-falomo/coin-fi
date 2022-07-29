@@ -20,7 +20,7 @@
   gap: 1.5rem;
 }
 
-.header ul li:nth-of-type(1) {
+.header ul a:nth-of-type(1) {
   background-color: aliceblue;
   padding: 5px 20px;
   border-radius: 10px;
